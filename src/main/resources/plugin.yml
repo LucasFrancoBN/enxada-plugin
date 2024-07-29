@@ -1,0 +1,13 @@
+name: EnxadaPlugin
+version: '1.0-SNAPSHOT'
+main: org.enxada.enxadaPlugin.EnxadaPlugin
+api-version: '1.21'
+commands:
+  windcharge:
+    description: "Mude um desses tres atributos no wind charge: Forca da explosao (valor numerico), Opcao para adicionar particulas (sim ou nao) e velocidade do projetil (valor numerico)"
+    usage: /windcharge --forca:<valor numerico> --particulas:<sim/nao> --velocidade:<valor numerico>
+  sethome:
+    description: "Defina um ponto de teleporte de acordo com as suas coordenadas atuais."
+    usage: /sethome --apelido:<nome do ponto de teleporte> --particulas:<exibir particulas ao teletransportar-se> --cooldown:<tempo de cooldown>
+  home:
+    description: "Veja todas os seus pontos de teleportes usando --ver:sim ou se teleporte usando --tp:<apelido definido da home>."
