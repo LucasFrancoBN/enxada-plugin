@@ -2,6 +2,7 @@
 
 ## Como rodar o projeto
 Para rodar o projeto, crie um server spigot localmente, então pegue o arquivo "EnxadaPlugin-1.0-SNAPSHOT.jar" e cole no diretório de plugin do servidor.
+
 Agora vamos criar o banco de dados, nesse caso, utilizei o MySQL na sua versão 8. Agora, rode os comandos:
 
 Detalhe: o seu banco de dados precisa estar de acordo com o arquivo `config.yml`
